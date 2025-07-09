@@ -3,41 +3,87 @@
     color : #FFFFFF ;
 }
 
-
-.banner{
-    margin-top: 227px;
-    width:  632px;
-    height: 246px;
-    
-}
-
-.banner-1{
+.header1{
     font-size: 32px;
-    font-weight: 259px;
-    line-height: 40px;
-    font-family: 'Merriweather',regular;
+    text-align: center;
+    margin-top: 227px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 670px;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    width: 249px;
+    height: 40px;
 }
-.banner-2{
+.header2{
     font-size: 72px;
-    font-weight: 632px;
-    line-height: 190px;
-    font-family: 'Merriweather',bold;
-    
-    
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 484px;
+    margin-right: 484px;
+    width: 632px;
+    height: 190px;
 }
-
-.section{
-    background-image: url("images/BannerImage.png");
-    background-size: 1320px 600px;
-    background-repeat: no-repeat;
+.banner{
+    background-image: url('/images/BannerImage.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 140px;
-    background-position: center;
-    background-size: contain;
-    padding-top: 177px;
-    padding-bottom: 177px;
-    padding-left: 344px;
-    padding-right: 344px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.discount{
+    font-weight: 900;
+    
+    width: 383px;
+    height: 107px;
+    font-size: 88px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FF0000;
+}
+
+.description{
+   font-weight: 500;
+    font-size: 24px;
+     text-align: center;
+     margin-top: 48px;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 670px;
+     color: #FF0000;
+     font-family: 'Merriweather', serif; 
+}
+.catagories{
+    margin-top: 16px;
+    width: 420px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #070211;
+}
+
+.img-of-newYear{
+    
+    background-size: cover;
+    background-position: center;
+    margin-top: 48px;
+    margin-left: 399px;
+    margin-right: 399px;
+}
+
