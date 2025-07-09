@@ -1,0 +1,43 @@
+
+.text-color{
+    color : #FFFFFF ;
+}
+
+
+.banner{
+    margin-top: 227px;
+    width:  632px;
+    height: 246px;
+    
+}
+
+.banner-1{
+    font-size: 32px;
+    font-weight: 259px;
+    line-height: 40px;
+    font-family: 'Merriweather',regular;
+}
+.banner-2{
+    font-size: 72px;
+    font-weight: 632px;
+    line-height: 190px;
+    font-family: 'Merriweather',bold;
+    
+    
+}
+
+.section{
+    background-image: url("images/BannerImage.png");
+    background-size: 1320px 600px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-position: center;
+    background-size: contain;
+    padding-top: 177px;
+    padding-bottom: 177px;
+    padding-left: 344px;
+    padding-right: 344px;
+
+}
